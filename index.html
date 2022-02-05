@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sura&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/main.js" defer></script>
+    <title>Mercedes</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="merc-logo">
+                <img src="./images/Logo.png" alt="logo">
+                <h1>Mercedes</h1>
+            </div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Prices</a>
+                <a href="#">About</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="jumb">
+            <div class="img-wrap">
+                <img class="flip" id="jumb-img" src="./images/s.png" alt="m-s">
+            </div>
+            <div class="text-box">
+                <h1>Mercedes-benz<span id="typing">AMG, S class</span></h1>
+                <p>
+                    Speed & Comfort in one
+                </p>
+                <a id="buy-btn" target="_blank"
+                    href="https://www.sauto.cz/osobni/detail/mercedes-benz/amg-gt/162095216"><button
+                        class="btn-primary">Buy
+                        now</button></a>
+            </div>
+        </section>
+        <section class="choose-section">
+            <h1>Choose your style</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img-wrap">
+                        <img class="flip" src="./images/a.png">
+                    </div>
+                    <h2>Mercedes CLA</h2>
+                    <button class="btn-secondary choose-btn" data-car="cla">Choose</button>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrap">
+                        <img class="flip" src="./images/s.png">
+                    </div>
+                    <h2>Mercedes GT</h2>
+                    <button class="btn-secondary choose-btn" data-car="amg">Choose</button>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrap">
+                        <img class="flip" src="./images/g.png">
+                    </div>
+                    <h2>Mercedes G</h2>
+                    <button class="btn-secondary choose-btn" data-car="g">Choose</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Roman Tarnai 2022</p>
+    </footer>
+</body>
+
+</html>

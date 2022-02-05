@@ -1,0 +1,32 @@
+@import './variables';
+
+.btn-primary{
+    margin-top: 1.5em;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'Sura', serif;
+    background-color: $primaryColor;
+    padding-inline: 2.3em;
+    padding-block: .5em;
+    color: white;
+    &:hover{
+        background-color: #642f77;
+    }
+}
+.btn-secondary{
+    margin-top: 1.5em;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'Sura', serif;
+    background-color: $secondaryColor;
+    padding-inline: 2.3em;
+    padding-block: .5em;
+    color: white;
+    &:hover{
+        background-color: #642f77;
+    }
+}
